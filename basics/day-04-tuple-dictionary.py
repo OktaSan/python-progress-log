@@ -1,6 +1,11 @@
 #membuat tuple (tuple bersifat immutable/tetap)
-nama = ("yanti", "yanto", "yentre")
-print(nama)
+number = (1, 2, 3, 4, 5)
+
+#min() => untuk mencari nilai terendah pada tuple
+print(f'angka terendah dari {number} : {min(number)}')
+
+#max() => nuntuk mencari nilai terbesar pada tuple
+print(f'angka terbesar dari {number} : {max(number)}')
 
 #membuat dictionary (key-value)
 kamusBahasaInggris = {
